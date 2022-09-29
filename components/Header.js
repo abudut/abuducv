@@ -83,7 +83,7 @@ function Header() {
                         to="Projects"
                         spy={true}
                         smooth={true}
-                        offset={10}
+                        offset={0}
                         duration={50}
                       >
                         Projects

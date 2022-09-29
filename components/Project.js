@@ -5,8 +5,8 @@ import { CodeIcon } from "@heroicons/react/outline";
 function Project() {
   return (
     <section id="Projects">
-      <div className="flex justify-center bg-[#000b01] text-white w-full divide-y divide-light-blue-400">
-        <div className="w-1/2 my-10 text-center ">
+      <div className=" py-9 flex justify-center bg-[#000b01] text-white w-full divide-y divide-light-blue-400">
+        <div className="w-4/5 sm:w-4/5 my-10 text-center ">
           <h1 className="text-center p-4 text-green-600 font-bold text-lg sm:text-xl">
             CHECK OUT SOME OF MY WORKS
           </h1>
@@ -14,7 +14,7 @@ function Project() {
           <div className="grid grid-cols-1 gap-3 md:grid-cols-3 ">
             <div className="p-2 hover:p-1 border-2 hover:border-4 hover:brightness-105 border-green-500  opacity-100 lg:opacity-70  hover:opacity-100 transition duration-300 ease-in transform sm:hover:scale-105 hover:z-50">
               <img
-                className="object-center  h-auto w-auto"
+                className="object-center  h-auto w-auto mb-1"
                 src="images\netfl.PNG"
                 alt="NetflixClone"
               />
@@ -32,7 +32,7 @@ function Project() {
             </div>
             <div className="p-2 hover:p-1  border-2 hover:border-4 hover:brightness-105 border-green-500  opacity-100 lg:opacity-70  hover:opacity-100 transition duration-300 ease-in transform sm:hover:scale-105 hover:z-50">
               <img
-                className="object-center h-auto w-auto"
+                className="object-center h-auto w-auto mb-1"
                 src="images\hulu.PNG"
                 alt="huluClone"
               />
@@ -50,7 +50,7 @@ function Project() {
             </div>
             <div className="p-2 hover:p-1 border-2  hover:border-4 hover:brightness-105 border-green-500 opacity-100 lg:opacity-70  hover:opacity-100 transition duration-300 ease-in transform sm:hover:scale-105 hover:z-50">
               <img
-                className="object-center h-auto w-auto"
+                className="object-center h-auto w-auto mb-1"
                 src="images\amazon.PNG"
                 alt="AmazonClone"
               />

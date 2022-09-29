@@ -3,9 +3,9 @@ import React from "react";
 function Resume() {
   return (
     <section id="Resume">
-      <div className="bg-gray-900 w-full text-white flex justify-center ">
-        <div className="divide-y-2 w-full px-8 divide-white sm:w-3/6 sm:px-0 ">
-          <div className=" py-4  sm:py-16 ">
+      <div className="bg-gray-900 w-full text-white flex justify-center  py-4  sm:py-16 ">
+        <div className="divide-y-2  w-4/5 sm:w-1/2 divide-white ">
+          <div className="">
             <h1 className="text-left p-3 pl-0 text-green-600 font-bold text-lg sm:text-xl">
               EDUCATION
             </h1>{" "}

@@ -2,13 +2,12 @@ import React from "react";
 import Typewriter from "typewriter-effect";
 
 function Homep() {
-  const name = "Abudu";
-  const surname = "Touray";
   return (
     <section id="Home">
       <div
         style={{
           backgroundImage: `url('/images/matrix_code_numbers_147523_1920x1080.jpg')`,
+          
         }}
         className="bg-center bg-cover bg-no-repeat h-screen w-full text-gray-50 object-contain "
       >
