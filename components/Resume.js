@@ -75,11 +75,11 @@ function Resume() {
           </div>
 
           <div className="flex py-4 w-full justify-between text-sm sm:py-16 sm:text-md md:text-lg ">
-            <h1 className="text-left p-3 pl-0 text-green-600 font-bold text-lg sm:text-xl">
+            <h1 className="text-left pt-4 pl-0 text-green-600 font-bold text-lg sm:text-xl">
               SKILLS
             </h1>{" "}
             <div className="divide-y">
-              <div className=" pb-3 pt-4 font-bold ">
+              <div className=" pb-3 pt-2 font-bold ">
                 <h3 className="pt-3 font-bold">HTML</h3>{" "}
               </div>
               <div className=" py-3 font-bold ">
