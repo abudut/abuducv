@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { Link } from "react-scroll";
+import Image from "next/image";
 
 function Header() {
   const [show, handleShow] = useState(false);
@@ -23,6 +24,14 @@ function Header() {
         show && " bg-opacity-80"
       }`}
     >
+
+{/*<Image
+        className="object-contain"
+        src="/public/images/logo.png"
+        width={200}
+        height={100}
+        alt="hulu"
+    />*/}
       <Disclosure as="nav" className="">
         {({ open }) => (
           <>
