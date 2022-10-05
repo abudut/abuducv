@@ -80,22 +80,28 @@ function Resume() {
             </h1>{" "}
             <div className="divide-y">
               <div className=" pb-3 pt-2 font-bold ">
-                <h3 className="pt-3 font-bold">HTML</h3>{" "}
-              </div>
-              <div className=" py-3 font-bold ">
-                <h3>CSS</h3>{" "}
+                <h3 className="pt-3 font-bold">HTML/CSS</h3>{" "}
               </div>
               <div className=" py-3 font-bold ">
                 <h3>JAVASCRIPT</h3>{" "}
               </div>
               <div className=" py-3 font-bold ">
+                <h3>NODE JS</h3>{" "}
+              </div>
+              <div className=" py-3 font-bold ">
                 <h3>REACT</h3>{" "}
+              </div>
+              <div className=" py-3 font-bold ">
+                <h3>NEXT JS</h3>{" "}
+              </div>
+              <div className=" py-3 font-bold ">
+                <h3>PHP</h3>{" "}
               </div>
               <div className=" py-3 font-bold ">
                 <h3>TAILWIND CSS</h3>{" "}
               </div>
               <div className=" py-3 font-bold">
-                <h3>MYSQL</h3>{" "}
+                <h3>MYSQL/POSTGRESQL</h3>{" "}
               </div>
             </div>
           </div>

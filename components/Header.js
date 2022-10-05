@@ -20,18 +20,12 @@ function Header() {
   }, []);
   return (
     <header
-      className={`header bg-black  fixed w-full p-1 text-lg nav ${
-        show && " bg-opacity-80"
+      className={`header none bg-black  fixed w-full p-1 text-lg nav ${
+        show && " bg-opacity-50"
       }`}
     >
 
-{/*<Image
-        className="object-contain"
-        src="/public/images/logo.png"
-        width={200}
-        height={100}
-        alt="hulu"
-    />*/}
+
       <Disclosure as="nav" className="">
         {({ open }) => (
           <>
@@ -55,7 +49,6 @@ function Header() {
                         className="text-gray-300 cursor-pointer   hover:text-green-300 px-3 py-2 rounded-md sm:text-sm  text-base  block sm:flex"
                         activeClass="text-green-500 font-bold sm:font-black px-3 py-2 rounded-md sm:text-sm text-base  block sm:flex"
                         to="Home"
-                     
                         spy={true}
                         smooth={true}
                         offset={0}
@@ -112,7 +105,6 @@ function Header() {
                   spy={true}
                   smooth={true}
                   duration={50}
-                  
                 >
                   Home
                 </Link>
@@ -144,7 +136,6 @@ function Header() {
                   spy={true}
                   smooth={true}
                   duration={50}
-                
                 >
                   Projects
                 </Link>
